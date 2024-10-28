@@ -121,7 +121,9 @@ export default function Resume() {
             <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Certifications
             </h2>
-            <h3 className="font-semibold text-gray-800">Full Stack Open</h3>
+            <h3 className="font-semibold text-gray-800">
+              Fullstack app development with React and Node
+            </h3>
             <ul className="list-disc ml-4 text-sm text-gray-700">
               <li>University of Helsinki</li>
               <li>Issued: 2020 - 2021</li>
@@ -134,9 +136,7 @@ export default function Resume() {
                 </a>
               </li>
             </ul>
-            <h3 className="font-semibold text-gray-800 mt-4">
-              DevOps With Docker
-            </h3>
+            <h3 className="font-semibold text-gray-800 mt-4">Docker</h3>
             <ul className="list-disc ml-4 text-sm text-gray-700">
               <li>University of Helsinki</li>
               <li>Issued: 2021</li>
