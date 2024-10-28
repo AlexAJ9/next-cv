@@ -9,14 +9,14 @@ export default function Resume() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter border-b border-gray-300 ">
+      <h1 className="mb-8 text-3xl font-bold tracking-tight border-b border-gray-300">
         Alexander Aljabari - Software Engineer
       </h1>
 
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2 p-4">
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Personal Information
             </h2>
             <div className="mt-2">
@@ -27,70 +27,76 @@ export default function Resume() {
                 <strong>Phone:</strong> +359 89 570 5734
               </div>
               <div className="mb-2 text-gray-800">
-                <strong>Email:</strong> alexandaraj9@gmail.com
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:alexandaraj9@gmail.com"
+                  className="text-blue-600 underline"
+                >
+                  alexandaraj9@gmail.com
+                </a>
               </div>
             </div>
           </div>
 
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               About Me
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed">
-              Results-oriented and highly skilled software engineer with over 3
-              years of experience in building web and mobile applications. I am
-              proficient in creating efficient and scalable solutions while
-              adhering to industry best practices. I have a strong track record
-              of collaborating with cross-functional teams and delivering
-              high-quality software products. I am committed to staying updated
-              with emerging technologies and continuously improving my coding
-              skills.
+              Results-oriented and highly skilled software engineer with over 4
+              years of experience in building web and mobile applications.
+              Proficient in creating efficient and scalable solutions while
+              adhering to industry best practices. Committed to staying updated
+              with emerging technologies and continuously improving coding
+              skills, project management expertise, software architecture
+              design, and best practices in development.
             </p>
           </div>
         </div>
 
         <div className="w-full md:w-1/2 p-4">
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Skills
             </h2>
             <ul className="list-none p-0 m-0 space-y-2 text-sm">
               <li className="flex items-center">
                 <span className="mr-2">🚀</span> Programming Languages:
-                JavaScript, TypeScript, Python
+                JavaScript, TypeScript, Python, Swift
               </li>
               <li className="flex items-center">
                 <span className="mr-2">🌐</span> Web Development: React,
                 Next.js, Node.js, Express.js
               </li>
               <li className="flex items-center">
+                <span className="mr-2">📱</span> Mobile Development: React
+                Native, Expo, SwiftUI
+              </li>
+              <li className="flex items-center">
                 <span className="mr-2">☁️</span> Cloud Services: Google Cloud
                 Platform, Firebase
               </li>
               <li className="flex items-center">
-                <span className="mr-2">🎯</span> Agile Methodologies (Jira,
-                Confluence, Trello)
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">📱</span> Mobile Development: React
-                Native, Expo
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">🔍</span> Problem Solving and
-                Troubleshooting
+                <span className="mr-2">🎯</span> Agile Methodologies: Jira,
+                Confluence, Trello
               </li>
               <li className="flex items-center">
                 <span className="mr-2">📚</span> Version Control: Git, GitHub,
                 GitLab
               </li>
               <li className="flex items-center">
-                <span className="mr-2">🛢️</span> Databases: MongoDB, SQL
+                <span className="mr-2">🔍</span> Problem Solving and
+                Troubleshooting
               </li>
               <li className="flex items-center">
-                <span className="mr-2">✅</span> Testing: Jest, Cypress
+                <span className="mr-2">✅</span> Testing: Jest, Cypress,
+                Selenium
               </li>
               <li className="flex items-center">
-                <span className="mr-2">🐳</span> DevOps: Docker
+                <span className="mr-2">🐳</span> DevOps: Docker, GitHub Actions
+              </li>
+              <li className="flex items-center">
+                <span className="mr-2">💾</span> Databases: MongoDB, SQL
               </li>
             </ul>
           </div>
@@ -100,7 +106,7 @@ export default function Resume() {
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2 p-4">
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Education
             </h2>
             <h3 className="font-semibold text-gray-800">
@@ -112,7 +118,7 @@ export default function Resume() {
           </div>
 
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Certifications
             </h2>
             <h3 className="font-semibold text-gray-800">Full Stack Open</h3>
@@ -122,7 +128,7 @@ export default function Resume() {
               <li>
                 <a
                   href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/41ef639080909178958a4c0c9fc81c65"
-                  className="text-blue-500 underline"
+                  className="text-blue-600 underline"
                 >
                   View Certification
                 </a>
@@ -137,7 +143,7 @@ export default function Resume() {
               <li>
                 <a
                   href="https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/0720bd19296ae7d8d1b2895c698c1412"
-                  className="text-blue-500 underline"
+                  className="text-blue-600 underline"
                 >
                   View Certification
                 </a>
@@ -146,11 +152,11 @@ export default function Resume() {
           </div>
 
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Languages
             </h2>
             <ul className="list-disc ml-4 text-sm text-gray-700">
-              <li>English: C1</li>
+              <li>English: Cambridge Advanced C1</li>
               <li>Bulgarian: Native</li>
             </ul>
           </div>
@@ -158,7 +164,7 @@ export default function Resume() {
 
         <div className="w-full md:w-1/2 p-4">
           <div className="mb-4">
-            <h2 className="text-lg font-semibold border-b border-gray-300 pb-2 text-blue-500">
+            <h2 className="text-xl font-semibold border-b border-gray-300 pb-2 text-blue-600">
               Experience
             </h2>
             <h3 className="font-semibold text-gray-800">Software Developer</h3>
@@ -173,6 +179,11 @@ export default function Resume() {
                 performance, and usability.
               </li>
               <li>
+                Collaborated closely with the client’s upper management to
+                enhance existing features, implement new functionalities, and
+                drive business growth initiatives.
+              </li>
+              <li>
                 Built responsive and user-friendly interfaces using React, CSS,
                 and other front-end technologies, following UI/UX design
                 guidelines.
@@ -185,9 +196,6 @@ export default function Resume() {
                 Successfully integrated third-party APIs into the backend,
                 providing additional functionality and improving overall system
                 capabilities.
-              </li>
-              <li>
-                Utilized Firebase for managing authentication and file storage.
               </li>
               <li>
                 Deployed applications and services on Google Cloud Platform.
