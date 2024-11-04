@@ -10,7 +10,7 @@ export default function Resume() {
       </Head>
 
       <h1 className="mb-8 text-3xl font-bold tracking-tight border-b border-gray-300">
-        Alexander Aljabari - Software Engineer
+        Alexander Aljabari - Fullstack Software Engineer
       </h1>
 
       <div className="flex flex-wrap">
@@ -96,7 +96,7 @@ export default function Resume() {
                 <span className="mr-2">🐳</span> DevOps: Docker, GitHub Actions
               </li>
               <li className="flex items-center">
-                <span className="mr-2">💾</span> Databases: MongoDB, SQL
+                <span className="mr-2">💾</span> Databases: MongoDB, Redis, SQL
               </li>
             </ul>
           </div>
